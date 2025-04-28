@@ -168,7 +168,7 @@ print(challenge.find('th')) # 0
 challenge = 'Thirty'
 print(challenge.isdigit()) # False
 challenge = '30'
-print(challenge.digit())   # True
+print(challenge.isdigit())   # True
 
 # isdecimal():Checks decimal characters
 
@@ -234,7 +234,7 @@ challenge = 'thirty days of python'
 print(challenge.title()) # Thirty Days Of Python
 
 # swapcase(): Checks if String Starts with the Specified String
-  
+
 challenge = 'thirty days of python'
 print(challenge.swapcase())   # THIRTY DAYS OF PYTHON
 challenge = 'Thirty Days Of Python'
